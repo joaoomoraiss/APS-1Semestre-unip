@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="Pagina Inicial.css">
+</head>
+<body>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776; <!-- Ícone de menu (três barrinhas) -->
+        </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a href="controle.html" >Dados populacionais</a></li>
+                <li><a href="escassez.html">Escassez de recursos</a></li>
+                <li><a href="desigualdade.html">Desigualdade e distribuição de recursos</a></li>
+                <li><a href="seguranca.html">Segurança alimentar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="content">
+        <h1>Bem-vindo ao Site de dados populacionais</h1>
+        <p>Este site foi criado com o objetivo de explorar questões relacionadas ao crescimento populacional, controle demográfico e sustentabilidade.</p>
+        <p>Segundo a Teoria malthusiana, criada por Thomas Malthus, a população cresce segundo uma progressão geométrica, enquanto a produção de alimentos cresce a uma progressão aritmética, portanto haveria crises, onde há escassez de alimentos. A teoria foi proposta como inadequada, pois Malthus não considerou que a produtividade na produção de alimentos também aumentaria. Mas Malthus propôs que seriam necessárias ações para o controle da população, como aumento do custo de vida, casamento tardio, ações governamentais etc. Tais ações seriam dispensadas já que a teoria se provou errada, mas diversos países passam ou vão passar por problemas que desencadeiam o declínio populacional, assim, afetando a sustentabilidade do planeta.</p>
+        
+        <p>Pode-se pensar que, caso haja um grande crescimento populacional, os problemas de sustentabilidade estariam resolvidos, porém na realidade, o oposto ocorre. Ao analisar a índia, percebe-se que com uma população de 1,417 bilhão, há problemas de fome, educação e econômicos. Assim, um país, onde, primeiro deve se preocupar em alimentar sua população, ocorra-se em deixar atividades de inovação de lado, prejudicando diversas áreas, ao qual, a ciência da computação é uma delas. </p>
+        <p>Explore os diferentes tópicos em nosso site para aprender mais sobre esse assunto crucial e suas implicações para o futuro da humanidade e do planeta.</p>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
